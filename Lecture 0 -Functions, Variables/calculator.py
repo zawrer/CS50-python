@@ -3,6 +3,6 @@ x = float(input("What's x? "))
 y = float(input("What's y? "))
 
 # Округляем z до целого
-z = round(x + y)
+z = x / y
 
-print(z)
+print(f"{z:.2f}")
