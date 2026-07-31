@@ -1,8 +1,12 @@
-# Запрашиваем значения переменных x и y и приравниваем их к int y пользователя 
-x = float(input("What's x? "))
-y = float(input("What's y? "))
+def main():
+    x = int(input("What's x? "))
+    print("x sqaured is", square(x))
 
-# Округляем z до целого
-z = x / y
 
-print(f"{z:.2f}")
+def square(n):
+    return pow(n, 2)
+
+
+main()
+
+
