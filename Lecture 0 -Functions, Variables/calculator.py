@@ -1,6 +1,5 @@
-x = int(input("What's x? "))
-y = int(input("What's y? "))
+# Запрашиваем значения переменных x и y и приравниваем их к int y пользователя 
+x = float(input("What's x? "))
+y = float(input("What's y? "))
 
-z = x + y
-
-print(z)
+print(x + y)
