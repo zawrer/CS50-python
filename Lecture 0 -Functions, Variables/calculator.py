@@ -2,4 +2,7 @@
 x = float(input("What's x? "))
 y = float(input("What's y? "))
 
-print(x + y)
+# Округляем z до целого
+z = round(x + y)
+
+print(z)
